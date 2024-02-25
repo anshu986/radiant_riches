@@ -1,0 +1,44 @@
+.card{
+    display: flex;
+    padding-block: 50px;
+    .firstdiv{
+        flex: 1;
+        img{
+            height: 180px;
+            width: auto;
+        }
+        p{
+            text-align: center;
+        }
+    }
+    .seconddiv{
+        flex: 2;
+        line-height: 25px;
+    }
+    .thirddiv{
+        flex: 1;
+        text-align: center;
+        color: #08457E;
+        button{
+            padding-inline: 70px;
+            padding-block: 8px;
+            font-size: 20px;
+            border-radius: 10px;
+            background-color: #157DEC;
+            color: white;
+            border:none
+        }
+        .rating{
+            font-size: 45px;
+            margin-bottom: 30px;
+           
+        }
+        .review{
+            height: 140px;
+            width: 140px;
+            margin-inline: auto;
+            margin-bottom: 50px;
+            background-color: #F4F8FF;
+        }
+    }
+}

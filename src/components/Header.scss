@@ -1,0 +1,21 @@
+.main{
+display: flex;
+justify-content: center;
+gap: 30px;
+color: white;
+padding-block: 7px;
+background-color: black;
+input{
+    height: 40px;
+    border-radius: 10px;
+}
+.search{
+    position: absolute;
+    color: black;
+    left: 32rem;
+    top: 21px;
+}
+p{
+    cursor: pointer;
+}
+}

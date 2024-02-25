@@ -1,24 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Submenu from './components/Submenu';
+import Cards from './components/Cards';
+import { IoCheckmarkDoneCircleOutline } from "react-icons/io5";
+import { IoInformationCircleOutline } from "react-icons/io5";
 
 function App() {
   return (
+    <>
+     <Header/>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <h1>Best Website builders in the US</h1>
+      <hr />
+      <div className='date'>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <IoCheckmarkDoneCircleOutline className='size'/>
+        Last Updated - 
+        February 22, 2020</p>
+        <p>
+        <IoInformationCircleOutline className='size' />
+        Advertising Disclosure</p>
+      </div>
+      <hr />
+      <Submenu/>
+      <Cards/>
     </div>
+    </>
+ 
   );
 }
 
