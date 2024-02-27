@@ -5,7 +5,7 @@ function Header() {
   return (
     <>
         <div className='main'>
-            <input type="text" value="" />
+            <input type="text" />
             <FiSearch className='search'/>
             <p>Categories</p>
             <p>Website Builder</p>

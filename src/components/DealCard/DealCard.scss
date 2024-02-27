@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.deal{
+    display: flex;
+    // flex-wrap: wrap;
+    // justify-content: center;
+}
+.dealcard{
+    margin-top: 25px;
+    background-color: white;
+    height: 425px;
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    
+    img{
+        height: 120px;
+        width: 150px;
+        margin-inline: 70px;
+        margin-block: 10px;
+    }
+    .discount{
+        background-color:#F2F4F7 ;
+        color: #08457E;
+        padding-inline:5px;
+        font-size: 13px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .name{
+        text-align: center;
+        color: #626E79;
+        font-weight: 700;
+        margin-block: 10px;
+        font-size: 16px
+    }
+    .description{
+        font-size: 16px;
+        color: #626E79;
+        margin-left: 14px;
+        margin-bottom: 15px;
+    }
+    button{
+        padding-inline: 120px;
+        padding-block: 10px;
+        margin-top: 18px;
+        font-size: 15px;
+        border-radius: 10px;
+        background-color: #1B88F4;
+        color: white;
+        border:none;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+    .price{
+        font-size: 20px; 
+        font-weight: 400;
+        color: #5C6874;
+        margin-inline:10px;
+    }
+    .cost{
+        font-size: 14px;
+        color: #9FA9B3;
+    }
+    .off{
+        margin-inline-start: 13px;
+        font-size: 13px;
+        color: #EF4C5D;
+        font-weight: 400;
+    }
+}

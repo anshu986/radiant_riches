@@ -1,0 +1,25 @@
+.options{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding-block: 20px;
+    color: #4B5665;
+    font-size: 13px;
+}
+.route{
+    display: flex;
+    gap:10px;
+    color: #4B5665;
+    font-size: 13px;
+}
+@media (max-width: 992px) {
+    /* Add your styles here */
+    .options{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .route{
+        font-size: 10px;
+    }
+  }

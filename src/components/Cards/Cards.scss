@@ -1,0 +1,128 @@
+.card{
+    display: flex;
+    padding-block-start: 40px;
+    color: #4B5665;
+    font-size: 16px;
+    .number{
+        height: 37px;
+        width: 37px;
+        font-size: 25px;
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 50%;
+    }
+    .firstdiv{
+        flex: 1;
+        img{
+            height: 180px;
+            width: auto;
+        }
+        p{
+            text-align: center;
+        }
+        
+    }
+    .seconddiv{
+        flex: 2;
+        line-height: 25px;
+        a{
+            text-decoration: none;
+            color: #157DEC;
+            line-height: 60px;
+        }
+        .highlight{
+            background-color: #FFF4F2;
+            width: 85%;
+            margin-inline:auto ;
+            padding: 10px;
+            border-radius: 10px;
+            p{
+                margin: 10px;
+                background-color: #FFF4F2;
+            }
+            span{
+                background-color: white;
+                padding: 5px;
+                margin-right: 10px;
+                border-radius: 5px;
+                height: 10px;
+                width: auto;
+                color: #157DEC;
+            }
+        }
+    }
+    .thirddiv{
+        flex: 1;
+        text-align: center;
+        color: #08457E;
+        button{
+            padding-inline: 70px;
+            padding-block: 8px;
+            font-size: 16px;
+            border-radius: 10px;
+            background-color: #157DEC;
+            color: white;
+            border:none
+        }
+        .rating{
+            font-size: 45px;
+            margin-bottom: 25px;
+            background-color: #F3F9FF;
+            color: #074786;
+        }
+        .review{
+            height: 140px;
+            width: 140px;
+            margin-inline: auto;
+            margin-bottom: 50px;
+            background-color: #F3F9FF;
+            p{
+                background-color: #F3F9FF;
+            }
+        }
+        img{
+            margin-top: 10px;
+        }
+    }
+}
+.circle-icon{
+    color: #FBFCFD;
+    background-color:#157DEC;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.bestdeal{
+    background-color: #FF7724;
+    color: white;
+    padding-block: 7px;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 136px;
+    border-radius: 0 10px 10px 0;
+    .bestdealicon{
+        height: 20px;
+        margin-block-start: 5px;
+        margin-inline-start: 10px;
+        background-color: #FF7724;
+    }
+}
+.disable{
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    .firstdiv{
+        flex: 2;
+    }
+    .thirddiv{
+        flex: 2;
+        
+    }
+    }
+}
