@@ -42,9 +42,7 @@ function Cards({ id,
           </p>
         </div>):<p>[What You Get]: {highlights}</p>}
         
-        {/* description
-        highlights
-        hightlights */}
+        
 
 {features===""?(
   ""
@@ -58,9 +56,7 @@ function Cards({ id,
         <a href="">Show more <KeyboardArrowDownIcon className='downicon'/></a>
     </div>
     <div className="thirddiv">
-       {/* rating 
-        comment
-        stars */}
+       
         <div className='review'>
         <p className='rating'>{rating}</p>
         <p>{comment}</p>

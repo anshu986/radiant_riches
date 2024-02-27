@@ -6,6 +6,7 @@ color: #D1D6DA;
 width: 100%;
 padding-block: 7px;
 background-color: #212731;
+position: relative;
 input{
     height: 40px;
     border-radius: 10px;
@@ -13,8 +14,10 @@ input{
 .search{
     position: absolute;
     color: #212731;
-    left: 29.5rem;
-    top: 21px;
+    left: 30%; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    cursor: pointer; 
 }
 p{
     cursor: pointer;
@@ -24,32 +27,44 @@ p{
 @media (max-width: 576px) {
         .main{
         display: flex;
-        // flex-direction: column;
-        p{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding-inline: 10px; 
+        p {
             font-size: 12px;
         }
         .search{
-            position: absolute;
-            left: 10px;
+            position: static;
+            margin-top: 10px;
         }
     }
     
     
 }
-
-// @media (min-width:600px and max-width: 768px) {
-//     /* Add your styles here */
-//     .search{
-//         position: absolute;
-//         left: 10px;
-//     }
-//   }
-  
-  /* For large screens (desktops, 992px and up) */
-  @media (max-width: 992px) {
-    /* Add your styles here */
-    .search{
-        display:none;
+@media (max-width:409px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        p{
+            font-size: 12px;
+        }
+        .search{
+            position: static;
+            left: 40px;
+        }
     }
-  }
+}
+@media (max-width:506px)
+{
+    .search{
+    display: none;
+   
+    }
+    
+}
+
   
+ 

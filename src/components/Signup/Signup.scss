@@ -19,7 +19,7 @@ div{
 .signup_div{
     display: flex;
     justify-content: space-between;
-    padding-inline-end: 40px;
+    // padding-inline-end: 40px;
     margin-block: 70px;
 }
 .signup{
@@ -39,16 +39,26 @@ div{
         justify-content: center;
         text-align: center;
         gap: 20px;
+        margin-block: 70px;
     }
     .signup{
         font-size: 20px;
+        width: auto;
+        margin-inline: 20px;
     }
 }
 @media (max-width: 543px){
-    .signup_div{
-        button{
-            border-radius: 10px 10px 10px 10px;
-        }
-        
+    .signup_div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+        margin-block: 70px;
+    }
+    .signup {
+        font-size: 16px;
+        width: auto;
+        margin-inline: 20px;
     }
 }

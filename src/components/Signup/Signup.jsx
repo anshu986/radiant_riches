@@ -1,6 +1,5 @@
 import React from 'react'
 import './Signup.scss'
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 function Signup() {
   return (
     <>
